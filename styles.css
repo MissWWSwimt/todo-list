@@ -1,0 +1,6 @@
+@import 'desc.css';
+
+
+.done{
+    text-decoration: line-through;
+}
