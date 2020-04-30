@@ -1,0 +1,33 @@
+{
+  "name": "lesson-22-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "copys.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --port 3001",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissWWSwimt/todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MissWWSwimt/todo-list/issues"
+  },
+  "homepage": "https://github.com/MissWWSwimt/todo-list#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "path": "^0.12.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
