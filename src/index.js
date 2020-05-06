@@ -2,21 +2,7 @@
 import{fetchGetTaskList, fetchEditTask, fetchDeleteTask, fetchAddTask} from './api'
 import{createForm,createBtn, input, textarea, createEl} from './elements'
 
-console.log(fetchGetTaskList())
 
-fetchGetTaskList()
-
-/*const fetchAddTask = (body) => {
-    return fetch(`${endpoint}/add`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-    })
-    .then(response =>{
-        if(input.value.length === 0) throw new Error('Ошибка создания')
-        
-    })
-}*/
 const renderTask = (task, list) => {
     const li = createEl('li')
     const text = createEl('div', task.text, { class: task.done ? 'text done' : 'text' })
