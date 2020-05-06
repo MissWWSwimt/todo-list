@@ -4,3 +4,38 @@
 .done{
     text-decoration: line-through;
 }
+
+form{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+
+.createBtn{
+    height: 50px;
+    background-color: rgb(64, 243, 64);
+    border: none;
+    margin-left: 100px;
+    width: 400px;
+}
+
+button{
+    height: 30px;
+}
+
+input{
+    height: 30px;
+}
+
+li{
+    padding: 10px;
+    font-size: 24px;
+}
+
+.errormess{
+    color: red;
+    font-size: 15px;
+    background-color: yellow;
+}
